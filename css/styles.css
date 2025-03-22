@@ -114,7 +114,8 @@ img{
     color: #404bbf
 }
 .hero {
-    padding: 188px;
+    padding-top: 188px;
+    padding-bottom: 188px;
     background-color: #2e2f42;
 }
 .hero .container{
@@ -131,24 +132,23 @@ img{
         margin: 0 auto;
         margin-bottom: 48px;
 }
-.hero-button{
-    
-} 
+
 .button-order {
+    display: block;
+    min-width: 169px;
+    height: 56px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
-        display: block;
             margin: 0 auto;
             border-radius: 4px;
-            background-color: #4D5AE5;
+            background-color: #4d5ae5;
             cursor: pointer;
             border: none;
-            min-width: 169px;
-            height: 56px;
+            
 }
 .button-order:hover{
     background-color: #404BBF
@@ -227,7 +227,7 @@ img{
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
     padding-bottom: 32px;
-    flex-basis: calc((100%-72px)/4);
+    width: calc((100% - 48px) / 3);
 }
 
 .team-image {
@@ -241,7 +241,7 @@ img{
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        padding-bottom: 8px;
+        margin-bottom: 8px;
 }
 
 .team-item-text {
